@@ -1,4 +1,4 @@
-app "day1"
+app "day2"
     packages {
         pf: "https://github.com/roc-lang/basic-cli/releases/download/0.7.0/bkGby8jb0tmZYsy2hg1E_B2QrCgcSTxdUlHtETwm5m4.tar.br",
     }
@@ -23,10 +23,6 @@ p1 = \input ->
         |> List.map .id
         |> List.sum
 
-# Game : { id: Nat, red: Nat, green: Nat, blue: Nat }
-
-
-# toGame : Str -> Game
 toGame = \line ->
     dbg line
 
